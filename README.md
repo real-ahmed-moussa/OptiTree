@@ -1,4 +1,4 @@
-# 📌 OptiTree: Benchmarking Tree-Based Models with Metaheuristic Optimization
+# OptiTree: Benchmarking Tree-Based Models with Metaheuristic Optimization
 
 <p align="center">
   <img src="imgs/OptiTree.png" alt="OT" width="300">
@@ -6,16 +6,19 @@
 
 > A high-performance framework for benchmarking and optimizing tree-based machine learning models using Particle Swarm Optimization (PSO), enabling efficient hyperparameter tuning and experiment tracking for structured classification tasks.
 
+---
 
 ## 📖 Overview
 - This project implements a **model benchmarking and optimization suite** for tree-based classifiers, comparing the performance of multiple algorithms under automated hyperparameter search.
 - Instead of traditional grid or random search, this pipeline leverages **Particle Swarm Optimization (PSO)** via the custom hyperparameter-optimizer library for **faster convergence and improved model accuracy**.
 - Experiment tracking is handled by **MLflow**, while trained models are persisted with **joblib** for reproducibility.
 
+---
 
 ## 🏢 Business Impact
 OptiTree provides organizations with a **scalable, automated framework for selecting and tuning tree-based models**, resulting in **higher predictive accuracy, reduced manual effort, and faster iteration cycles** for decision-critical applications such as finance, healthcare, and risk management.
 
+---
 
 ## 🚀 Features
 ✅ **Multi-Model Benchmarking:** Supports Decision Trees, Random Forests, AdaBoost, Gradient Boosting, LightGBM, XGBoost, and CatBoost classifiers.  
@@ -24,6 +27,7 @@ OptiTree provides organizations with a **scalable, automated framework for selec
 ✅ **Model Serialization:** Stores best-performing models for later use and deployment.  
 ✅ **Reproducible Experiments:** Ensures consistent benchmarking and fair comparison across runs.  
 
+---
 
 ## ⚙️ Tech Stack
 | Technology                 | Purpose                                                              |
@@ -52,12 +56,13 @@ OptiTree provides organizations with a **scalable, automated framework for selec
  ┗ README.md
 </pre>
 
+---
 
 ## 🛠️ Installation
 1️⃣ **Clone the Repository**
 <pre>
-git clone https://github.com/ahmedmoussa/Projects-Portfolio.git
-cd 'OptiTree - Benchmarking Tree-Based Models with Metaheuristic Optimization'
+git clone https://github.com/ahmedmoussa/OptiTree.git
+cd OptiTree
 </pre>
 
 2️⃣ **Create Virtual Environment & Install Requirements**
@@ -73,6 +78,7 @@ pip install -r requirements.txt
 jupyter notebook 'OptiTree - Benchmarking Tree-Based Models with Metaheuristic Optimization.ipynb'
 </pre>
 
+---
 
 ## 📊 Results
 - Benchmarked multiple tree-based models with PSO-tuned hyperparameters.
@@ -80,6 +86,10 @@ jupyter notebook 'OptiTree - Benchmarking Tree-Based Models with Metaheuristic O
 - MLflow logged all experiments for reproducibility and comparison.
 - Best model serialized for downstream use.
 
+---
 
 ## 📝 License
 This project is shared for portfolio purposes only and may not be used for commercial purposes without permission.
+
+This project is licensed under the **MIT License**.  
+© 2025 **Dr. Ahmed Moussa**
